@@ -1,0 +1,32 @@
+/* =========================================
+
+COMPONENTS/FOOTER.LESS
+
+=========================================*/
+
+#footer{
+	border-top: 1px solid @textcolor;
+	h3.logo{
+		margin-left: 15px;
+		font-family: 'Lobster', cursive;
+		color: @textcolor;
+		font-size: 32px;
+		text-shadow: 2px 2px 0px #795648;
+    	filter: dropshadow(color=#795648, offx=2, offy=2);
+    	margin-bottom: 20px;
+		@media (min-width: @screen-sm){
+			font-size: 80px;
+			text-shadow: 3px 2px 0px #795648;
+	    	filter: dropshadow(color=#795648, offx=3, offy=2);
+	    	margin-bottom: 40px;
+		}
+	}
+	.address{
+		margin: 40px 0 15px 15px;
+		p{
+			color: @textcolor;
+			font-size: 10px;
+			margin: 0;
+		}
+	}
+}

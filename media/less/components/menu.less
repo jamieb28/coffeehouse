@@ -1,0 +1,50 @@
+/* =========================================
+
+COMPONENTS/MENU.LESS
+
+=========================================*/
+
+#menu{
+	margin: 20px 0 40px;
+	h3{
+		color: @textcolor;
+		font-family: 'Holtwood One SC', serif;
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	ul{
+		padding: 10px 0;
+		border-top: 1px solid @textcolor;
+		list-style: none;
+		li{
+			h5{
+				color: @textcolor;
+				font-size: 16px;
+				span{
+					font-size: 10px;
+					margin-bottom: 5px;
+				}
+			}
+			p{
+				color: #bf9280;
+				font-size: 12px;
+				margin-top: -6px;
+			}
+		}
+	}
+	.specials{
+		.special1{
+			background: url('../img/special-shirts.jpg') no-repeat center;
+		}
+		.special2{
+			background: url('../img/special-beans.jpg') no-repeat center;
+		}
+		.special1, .special2{
+			background-size: 100%;
+			text-indent: -999px;
+			height: 115px;
+			border: 4px solid #bf9280;
+			margin-left: 20px;
+		}
+	}
+}
