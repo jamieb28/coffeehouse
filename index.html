@@ -16,7 +16,12 @@
 </head>
 
    <body>
-      <h1 class="logo">The Coffee House</h1>
+
+      <div class="container">
+         <div class="row header">
+            <h1 class="logo col-sm-12">The Coffee House</h1>           
+         </div>
+      </div>
 
       <div class="row visible-xs">
          <div class="heroImage">
@@ -66,7 +71,9 @@
 
 
       <div id="menu" class="container">
-         <div class="row">
+         <div class="row col-12">
+
+            <h2 class="visible-md visible-lg col-12 menuHeader">Today's Menu</h2>
 
             <div class="coffeeMenu col-sm-6 col-md-4">
                <h3>&#45; Coffee &#45;</h3>
@@ -136,9 +143,9 @@
                </ul>
             </div>
 
-            <div class="specials">
-               <a href="#" class="special1 col-xs-5">T-Shirts</a>
-               <a href="#" class="special2 col-xs-5">Beans</a>
+            <div class="specials col-xs-12 col-md-4 col-md-pull-4">
+               <a href="#" class="special1 col-xs-6 col-md-12">T-Shirts</a>
+               <a href="#" class="special2 col-xs-6 col-md-12">Beans</a>
             </div>
 
          </div>
@@ -147,9 +154,9 @@
 
       <div id="footer" class="container">
          <div class="row">
-            <h3 class="logo">The Coffee House</h3>
+            <h3 class="logo col-sm-6">The Coffee House</h3>
 
-            <div class="address">
+            <div class="address col-sm-3 col-sm-offset-3">
                <p>Address Line 1</p>
                <p>Cityname, ST 33333</p>
                <p>Phone: 808.888.8888</p>

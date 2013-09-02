@@ -279,10 +279,10 @@
       "initialSize" : 46420,
       "fileType" : 4096
     },
-    "\/media\/less\/bootstrap\/type.less" : {
+    "\/media\/less\/bootstrap\/scaffolding.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/media\/less\/bootstrap\/type.less",
-      "outputAbbreviatedPath" : "\/media\/less\/css\/type.css",
+      "inputAbbreviatedPath" : "\/media\/less\/bootstrap\/scaffolding.less",
+      "outputAbbreviatedPath" : "\/media\/less\/css\/scaffolding.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -296,10 +296,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/media\/less\/bootstrap\/scaffolding.less" : {
+    "\/media\/less\/bootstrap\/type.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/media\/less\/bootstrap\/scaffolding.less",
-      "outputAbbreviatedPath" : "\/media\/less\/css\/scaffolding.css",
+      "inputAbbreviatedPath" : "\/media\/less\/bootstrap\/type.less",
+      "outputAbbreviatedPath" : "\/media\/less\/css\/type.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -594,16 +594,22 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/media\/js\/vendor\/button.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
+    "\/media\/less\/components\/footer.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/media\/less\/components\/footer.less",
+      "outputAbbreviatedPath" : "\/media\/less\/css\/footer.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/media\/js\/vendor\/button.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/media\/js\/vendor\/button-min.js",
-      "fileType" : 64
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
     },
     "\/media\/less\/bootstrap\/popovers.less" : {
       "ieCompatibility" : 1,
@@ -621,6 +627,17 @@
       "outputStyle" : 0,
       "debugStyle" : 0,
       "strictMath" : 0
+    },
+    "\/media\/img\/coffee-3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/media\/img\/coffee-3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/media\/img\/coffee-3.jpg",
+      "initialSize" : 135766,
+      "fileType" : 4096
     },
     "\/media\/less\/components\/menu.less" : {
       "ieCompatibility" : 1,
@@ -648,17 +665,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/media\/img\/special-beans.jpg",
       "initialSize" : 27381,
-      "fileType" : 4096
-    },
-    "\/media\/img\/coffee-3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/media\/img\/coffee-3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/media\/img\/coffee-3.jpg",
-      "initialSize" : 135766,
       "fileType" : 4096
     },
     "\/media\/less\/bootstrap\/navs.less" : {
@@ -757,22 +763,16 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/media\/less\/components\/footer.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/media\/less\/components\/footer.less",
-      "outputAbbreviatedPath" : "\/media\/less\/css\/footer.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
+    "\/media\/js\/vendor\/button.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
       "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/media\/js\/vendor\/button.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/media\/js\/vendor\/button-min.js",
+      "fileType" : 64
     },
     "\/media\/less\/bootstrap\/code.less" : {
       "ieCompatibility" : 1,
@@ -881,28 +881,6 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/media\/js\/vendor\/affix.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/media\/js\/vendor\/affix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/media\/js\/vendor\/affix-min.js",
-      "fileType" : 64
-    },
-    "\/media\/img\/special-shirts.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/media\/img\/special-shirts.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/media\/img\/special-shirts.jpg",
-      "initialSize" : 25207,
-      "fileType" : 4096
-    },
     "\/media\/less\/bootstrap\/labels.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/media\/less\/bootstrap\/labels.less",
@@ -919,6 +897,28 @@
       "outputStyle" : 0,
       "debugStyle" : 0,
       "strictMath" : 0
+    },
+    "\/media\/img\/special-shirts.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/media\/img\/special-shirts.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/media\/img\/special-shirts.jpg",
+      "initialSize" : 25207,
+      "fileType" : 4096
+    },
+    "\/media\/js\/vendor\/affix.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/media\/js\/vendor\/affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/media\/js\/vendor\/affix-min.js",
+      "fileType" : 64
     },
     "\/media\/js\/vendor\/tooltip.js" : {
       "ignoreWasSetByUser" : 1,

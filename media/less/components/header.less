@@ -4,21 +4,30 @@ COMPONENTS/HEADER.LESS
 
 =========================================*/
 
-h1.logo{
-	font-family: 'Lobster', cursive;
-	color: @textcolor;
-	text-align: center;
-	@media (max-width: @screen-sm) {
-		font-size: 50px;
-		text-shadow: 2px 2px 0px #795648;
-    	filter: dropshadow(color=#795648, offx=2, offy=2);
-    	margin-bottom: 20px;
-	}
-	@media (min-width: @screen-sm){
-		font-size: 80px;
-		text-shadow: 3px 2px 0px #795648;
-    	filter: dropshadow(color=#795648, offx=3, offy=2);
-    	margin-bottom: 40px;
+.header {
+	h1.logo{
+		font-family: 'Lobster', cursive;
+		color: @textcolor;
+		text-align: center;
+		
+		@media (max-width: @screen-sm) {
+			font-size: 50px;
+			text-shadow: 2px 2px 0px #795648;
+	    	filter: dropshadow(color=#795648, offx=2, offy=2);
+	    	margin-bottom: 20px;
+		}
+		@media (min-width: @screen-sm){
+			font-size: 65px;
+			text-shadow: 3px 2px 0px #795648;
+	    	filter: dropshadow(color=#795648, offx=3, offy=2);
+	    	margin-bottom: 40px;
+		}
+		@media (min-width: @screen-md){
+			font-size: 80px;
+			text-shadow: 3px 2px 0px #795648;
+	    	filter: dropshadow(color=#795648, offx=3, offy=2);
+	    	margin-bottom: 40px;
+		}
 	}
 }
 
